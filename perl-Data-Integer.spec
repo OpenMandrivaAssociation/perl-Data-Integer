@@ -58,3 +58,14 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 0.4.0-2mdv2011.0
++ Revision: 653562
+- rebuild for updated spec-helper
+
+* Sat Aug 28 2010 Shlomi Fish <shlomif@mandriva.org> 0.4.0-1mdv2011.0
++ Revision: 573802
+- import perl-Data-Integer
+
