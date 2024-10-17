@@ -7,7 +7,7 @@ Release:    1
 Summary:    Details of the native integer data type
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires: perl(Carp)
