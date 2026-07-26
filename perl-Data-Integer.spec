@@ -1,14 +1,14 @@
 %define upstream_name    Data-Integer
 
 Name:       perl-%{upstream_name}
-Version:    0.006
+Version:    0.007
 Release:    1
 
 Summary:    Details of the native integer data type
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{version}.tar.gz
+Url:        https://github.com/robrwo/Data-Integer
+Source0:    https://cpan.metacpan.org/authors/id/R/RR/RRWO/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires: perl(Carp)
 BuildRequires: perl(Exporter)
