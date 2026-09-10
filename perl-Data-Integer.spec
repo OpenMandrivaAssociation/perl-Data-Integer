@@ -1,7 +1,7 @@
 %define upstream_name    Data-Integer
 
 Name:       perl-%{upstream_name}
-Version:    0.007
+Version:	0.007
 Release:    1
 
 Summary:    Details of the native integer data type
