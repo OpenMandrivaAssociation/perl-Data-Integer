@@ -33,16 +33,16 @@ Both are handled by this module.
 
 %prep
 %autosetup -p1 -n %{upstream_name}-%{version}
-perl Build.PL prefix=%{_prefix} installdirs=vendor destdir=%{buildroot}
 
 %build
-./Build
+perl Makefile.PL INSTALLDIRS=vendor
+%make_build
 
 %check
-./Build test
+%make test
 
 %install
-./Build install
+%make_install
 
 %files
 %defattr(-,root,root)
